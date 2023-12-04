@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+
+body {
+    background-color: rgba(238, 236, 236, 0.966);
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    padding-left: 500px;
+    padding-right: 500px;
+    z-index: auto;
+    
+}
+
+.context h1{
+    color: #313131;
+    font-size: 30px;
+    margin-top: -250px;
+    font-family: Poppins;
+}
+
+.button-container {
+    display: flex;
+  }
+  
+.bt1{
+    background: #ffffff;
+    padding: 6px 40px;
+    border: none;
+    font-size: 16px;
+    color: #017A7B;
+    border: solid 1px #017A7B;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.bt1:hover{
+    background: #017A7B;
+    color: #ffffff;
+}
+
+.bt2{
+    background: #017A7B;
+    padding: 6px 40px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 10px;
+    border: solid 1px #017A7B;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.bt2:hover{
+    background: #017A7B;
+    color: #ffffff;
+}
+
+.col p {
+    color: #017A7B;
+}
+
+.text-center a {
+    color: #017A7B;
+}
+
+.text-center a:hover{
+    color: #004242;
+}
+
+.btn-reg {
+    background: #017A7B;
+    padding: 6px 40px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    border: solid 1px #017A7B;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 20%;margin-top: 10px;
+    margin-left: 1010px;
+    transition: background-color 0.3s ease;
+
+}
+
